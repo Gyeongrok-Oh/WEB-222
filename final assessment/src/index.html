@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="../src/CSS/styles.css" />
+  </head>
+  <body>
+    <h1>Welcome to Tic-Tac-Toe Game!</h1>
+    <!-- Add media, images, videos, YouTube embeds, etc. about the game here -->
+
+    <!-- Replace 'tic-tac-toe-board.jpg' with the URL of the actual image you want to display -->
+    <img src="../src/tic-tac-toe-board.avif" alt="Tic-Tac-Toe Board" width="200" />
+
+    <!-- Replace 'tic-tac-toe-gameplay.mp4' with the URL of the actual video you want to display -->
+    <video width="300" controls>
+      <source src="../src/tic-tac-toe-gameplay.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Replace 'VIDEO_ID' with the actual YouTube video ID you want to embed -->
+    <iframe
+      width="400"
+      height="315"
+      src="https://www.youtube.com/embed/USEjXNCTvcc"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <h2>Explore the Site</h2>
+    <ul>
+      <a href="info.html" style="display: block">Info</a>
+      <br />
+      <a href="reviews.html" style="display: block">Reviews</a>
+      <br />
+      <a href="about.html" style="display: block">About</a>
+      <br />
+      <li>
+        <a href="#how-to-play" onclick="scrollToSection('how-to-play')">How to Play</a>
+      </li>
+      <br />
+      <li>
+        <a href="#leaderboard" onclick="scrollToSection('leaderboard')">Leaderboard</a>
+      </li>
+    </ul>
+
+    <!-- Content for the sections -->
+    <h2 id="how-to-play">How to Play</h2>
+    <p>
+      Tic-Tac-Toe is a classic game that is easy to learn and fun to play.<br />
+      It is also known as noughts and crosses or Xs and Os. <br />
+      The game is played on a 3x3 grid, where two players take turns marking the spaces with X or O.
+      <br />
+      The goal is to make three of your marks in a row, either horizontally, vertically, or
+      diagonally. <br />
+      If the grid is full and no one has made three in a row, the game is a tie.
+    </p>
+    <h3>Here are the basic steps to play Tic-Tac-Toe:</h3>
+    <p>1.Decide who will be X and who will be O. X always goes first.</p>
+    <p>2.Draw a 3x3 grid on a piece of paper or use an online board.</p>
+    <p>
+      3.Take turns placing your mark on an empty space on the grid. You can only mark one space per
+      turn.
+    </p>
+    <p>
+      4.Check if you have made three of your marks in a row. If you have, you win the game and can
+      celebrate. If not, continue to step 5.
+    </p>
+    <p>
+      5.Check if the grid is full. If it is, the game is a tie and no one wins. If not, go back to
+      step 3 and repeat until someone wins or the game is a tie.
+    </p>
+
+    <h2 id="leaderboard">Leaderboard</h2>
+    <p>
+      Compete against other players and see if you can make it to the top of the Tic-Tac-Toe
+      leaderboard.
+    </p>
+
+    <h2>Join our Newsletter</h2>
+    <p>
+      Stay updated with the latest news and announcements about Tic-Tac-Toe by joining our
+      newsletter!
+    </p>
+    <form id="newsletter-form" action="https://httpbin.org/post" method="post">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <input type="hidden" name="name" value="Your Name" />
+      <button type="submit" id="join-button">Join</button>
+    </form>
+
+    <script src="../javascript/script.js"></script>
+    <!-- Link to the JavaScript file -->
+  </body>
+</html>

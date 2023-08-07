@@ -1,0 +1,150 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling for header */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Styling for navigation links */
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Styling for main content sections */
+.main-section {
+  padding: 40px;
+}
+
+#home {
+  background-color: #f0f0f0;
+}
+
+#about {
+  background-color: #d9d9d9;
+}
+
+#services {
+  background-color: #f7f7f7;
+}
+
+/* Media queries for responsive design */
+/* For screens less than 400px wide */
+@media (max-width: 400px) {
+  /* Add your responsive styles here */
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  ul {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  li {
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+
+  /* Adjust margins for videos and iframes */
+  video,
+  iframe {
+    margin: 50px 0;
+  }
+}
+
+/* For screens greater than 400px wide */
+@media (min-width: 401px) {
+  /* Add your desktop styles here */
+  h2 {
+    font-size: 40px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+
+  h3 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  ul {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+
+  li {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  /* Adjust margins for videos and iframes */
+  video,
+  iframe {
+    margin: 100px 0;
+  }
+}
+
+/* Increase line spacing */
+.increased-line-spacing {
+  line-height: 1.5;
+}
+
+/* Newsletter form styles */
+#newsletter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#newsletter-form label,
+#newsletter-form input,
+#newsletter-form button {
+  margin-bottom: 10px;
+}
+
+#join-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
