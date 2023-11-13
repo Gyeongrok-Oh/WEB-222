@@ -1,6 +1,6 @@
 /********************************************************************************
 
-* WEB322 – Assignment 03
+* WEB322 – Assignment 04
 
 *
 
@@ -18,7 +18,7 @@
 
 *
 
-* Published URL:
+* Published URL: https://gyeongrok-oh.github.io/WEB-322/
 
 *
 
