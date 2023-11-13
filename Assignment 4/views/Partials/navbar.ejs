@@ -1,0 +1,19 @@
+<!-- navbar.ejs -->
+
+<!-- Regular Navbar -->
+<div class="navbar bg-base-100">
+    <ul>
+        <li><a class="<%= (page == '/') ? 'active' : '' %>" href="/">Home</a></li>
+        <li><a class="<%= (page == '/lego/sets') ? 'active' : '' %>" href="/lego/sets">View Collection</a></li>
+        <li><a class="<%= (page == '/about') ? 'active' : '' %>" href="/about">About</a></li>
+    </ul>
+</div>
+
+<!-- Responsive Navbar -->
+<div class="navbar-responsive bg-base-100">
+    <ul>
+        <li><a class="<%= (page == '/') ? 'active' : '' %>" href="/">Home</a></li>
+        <li><a class="<%= (page == '/lego/sets') ? 'active' : '' %>" href="/lego/sets">View Collection</a></li>
+        <li><a class="<%= (page == '/about') ? 'active' : '' %>" href="/about">About</a></li>
+    </ul>
+</div>
